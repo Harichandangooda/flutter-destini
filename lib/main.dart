@@ -110,7 +110,8 @@ class _StoryPageState extends State<StoryPage> {
               ),
             ),
           ),
-        )
+        ),
+        FloatingActionButton(onPressed: () { print("Clicked"); }, child: Icon(Icons.add))
       ],
     );
   }
